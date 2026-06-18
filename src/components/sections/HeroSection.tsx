@@ -4,7 +4,7 @@ import { profile, socials } from "@/lib/data";
 import { GithubIcon, LinkedinIcon } from "@/components/icons";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { Reveal } from "@/components/ui/Reveal";
-import { assetPath } from "@/lib/utils";
+import portrait from "@/assets/portrait.png";
 
 const socialIcon = (label: string) => {
   switch (label) {
@@ -111,7 +111,7 @@ export function HeroSection() {
             {/* portrait */}
             <div className="absolute inset-[12%] overflow-hidden rounded-full ring-1 ring-white/10">
               <Image
-                src={assetPath(profile.photo)}
+                  src={portrait}
                 alt={`Portrait of ${profile.name}`}
                 width={720}
                 height={720}

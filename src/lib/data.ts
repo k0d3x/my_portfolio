@@ -36,9 +36,6 @@ export const profile = {
   yearsExperience: "8+",
   // Résumé PDF — served from /public and downloaded directly on click.
   resumeHref: "/Ameer_Ali_Khan.pdf",
-  // Portrait photo — replace with your real photo: save it as
-  // /public/profile.jpg and change this to "/profile.jpg".
-  photo: "/my.PNG",
   heroHeadline: "I build scalable, high-performance backend systems.",
   heroSub:
     "Senior Software Engineer with 8+ years architecting cloud-native platforms, distributed microservices and data pipelines that serve millions of requests a day — across enterprise device management, retail fulfilment and media streaming.",

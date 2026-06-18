@@ -26,8 +26,9 @@ rename it).
 
 ### Your photo
 
-The hero portrait is `public/my.PNG`, referenced by `profile.photo` in
-`src/lib/data.ts`.
+The hero portrait is `src/assets/portrait.png`, statically imported in
+`src/components/sections/HeroSection.tsx` (so it gets the correct base path on
+GitHub Pages automatically).
 
 ## Develop
 
