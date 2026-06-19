@@ -28,7 +28,7 @@ function Row({ reverse = false }: { reverse?: boolean }) {
 export function SkillsMarquee() {
   return (
     <div
-      className="relative flex flex-col gap-3 py-2"
+      className="relative flex w-full max-w-full flex-col gap-3 overflow-hidden py-2"
       style={{
         maskImage:
           "linear-gradient(to right, transparent, #000 8%, #000 92%, transparent)",
